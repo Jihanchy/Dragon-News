@@ -16,8 +16,9 @@ const Navbar = () => {
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/career'>Career</Link>
+                <Link to='/dev'>Dev info</Link>
             </div>
-            <div className='flex gap-3 items-center'>
+            <div className='flex gap-3 items-center flex-1 justify-end'>
                 <div className='flex flex-col'>
                 <img className='h-12 w-12 object-cover rounded-full ' src={user?.photoURL ? user.photoURL : profile} alt="" />
                 {
